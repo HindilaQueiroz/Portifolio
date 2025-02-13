@@ -1,0 +1,122 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*height: 100vh;*/
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    padding: 5px;
+}
+
+.cabecalho__menu__link{
+    color: var(--cor-terciaria);
+    font-family: 'montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho{
+    padding: 2% 0 0 10%;
+}
+
+strong{
+    color: var(--cor-terciaria)
+}
+
+h1{
+  font-size: 25px;
+  font-family: 'montserrat', sans-serif;  
+}
+
+p{
+    font-size: 16px;
+    font-family: 'montserrat', sans-serif;  
+    margin-top: 30px;
+}
+
+h2{
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.projeto__principal{
+    margin: 02% 10% 4% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    margin-right: 50px;
+}
+
+.posicao__buton{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout__buton{
+    width: 160px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px 24px 12px 24px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: 'montserrat', sans-serif;
+    margin-top: 30px;
+    border: var(--cor-terciaria) solid 2px;
+}
+
+.layout__buton:hover{
+    background-color: #272727;
+}
+
+.rodape{
+    background-color: var(--cor-terciaria);
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'montserrat', sans-serif;
+    color: var(--cor-primaria);
+}
+
+.foto{
+    /*border-image: solid 3% var(--cor-terciaria);*/
+    border-radius: 15px;
+    border: 2px solid var(--cor-terciaria);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
